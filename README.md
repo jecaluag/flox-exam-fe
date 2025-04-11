@@ -1,5 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Task Management App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple task management app built with Vue 3 + TypeScript. Create, complete, and delete tasts.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Features
+
+- Create new tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Real-time feedback with toast notifications
+- Responsive design
+
+## Tech Stack
+
+- Vue 3
+- TypeScript
+- Tailwind CSS
+- Vue Sonner (for toasts)
